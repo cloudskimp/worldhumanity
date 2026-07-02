@@ -64,7 +64,7 @@ export const programs = [
 ];
 
 export const gallery = [
-  { src: "/images/gallery/placeholder-blood-drive.svg", caption: "Volunteers welcoming donors at a community blood drive", event: "Blood Drive · Carter BloodCare" },
+  { src: "/images/gallery/blood-drive-march26.jpg", caption: "World Humanity volunteer donating blood at a Carter BloodCare drive, March 2026", event: "Blood Drive · Carter BloodCare" },
   { src: "/images/gallery/placeholder-food-packing.svg", caption: "Assembly line in action — hundreds of meal kits packed", event: "Food Packaging" },
   { src: "/images/gallery/placeholder-heart-walk.svg", caption: "Team World Humanity at the Heart Walk", event: "Heart Walk · American Heart Association" },
   { src: "/images/gallery/placeholder-community.svg", caption: "Neighbors coming together for community well-being", event: "Community Event" },
