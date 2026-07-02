@@ -18,11 +18,16 @@ export default function ContactPage() {
         </div>
       </section>
       <section className="mx-auto max-w-page px-4 py-16 sm:px-6">
-        <div className="grid gap-6 sm:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           <a href={`mailto:${org.email}`} className="rounded-2xl bg-paper p-7 transition-all hover:-translate-y-1 hover:shadow-md">
             <h2 className="font-display text-lg font-bold text-ink">Email us</h2>
             <p className="mt-2 break-all font-semibold text-ocean">{org.email}</p>
             <p className="mt-2 text-sm text-ink/60">Best for volunteering, donations, and partnerships.</p>
+          </a>
+          <a href={`tel:${org.phone.replace(/[^0-9+]/g, "")}`} className="rounded-2xl bg-paper p-7 transition-all hover:-translate-y-1 hover:shadow-md">
+            <h2 className="font-display text-lg font-bold text-ink">Call us</h2>
+            <p className="mt-2 font-semibold text-ocean">{org.phone}</p>
+            <p className="mt-2 text-sm text-ink/60">Give us a call — we're happy to chat.</p>
           </a>
           <div className="rounded-2xl bg-paper p-7">
             <h2 className="font-display text-lg font-bold text-ink">Follow along</h2>
@@ -35,7 +40,7 @@ export default function ContactPage() {
           </div>
           <div className="rounded-2xl bg-paper p-7">
             <h2 className="font-display text-lg font-bold text-ink">Where we serve</h2>
-            <p className="mt-2 font-semibold text-ocean">{org.city}</p>
+            <p className="mt-2 font-semibold text-ocean">{org.address}</p>
             <p className="mt-2 text-sm text-ink/60">Our volunteers serve locally, with a heart for people everywhere.</p>
           </div>
         </div>

@@ -37,6 +37,7 @@ export default function Footer() {
         <div className="text-sm">
           <p className="font-display font-semibold text-white">Stay connected</p>
           <p className="mt-2 text-white/70">{org.email}</p>
+          <p className="text-white/70"><a href={`tel:${org.phone.replace(/[^0-9+]/g, "")}`} className="hover:text-marigold">{org.phone}</a></p>
           <p className="text-white/70">{org.city}</p>
           <div className="mt-4 flex gap-4">
             <a href={org.social.instagram} className="text-white/80 hover:text-marigold" target="_blank" rel="noopener noreferrer">Instagram</a>
