@@ -5,7 +5,9 @@ export const org = {
   mission:
     "World Humanity, Inc. is a volunteer-run nonprofit dedicated to enhancing the lives of people in our community and around the world. Guided by the belief that every person deserves dignity, health, and opportunity, we show up — to donate blood, pack meals, walk for hearts, and lend a hand wherever it's needed.",
   email: "info@worldhumanity.org",
-  city: "Dallas–Fort Worth, Texas",
+  phone: "(732) 508-0008",
+  city: "McKinney, Texas",
+  address: "1400 N Coit Rd, Ste 2404, McKinney, TX 75071",
   ein: "",
   social: {
     instagram: "https://www.instagram.com/worldhumanityinc/",
@@ -71,8 +73,18 @@ export const gallery = [
 ];
 
 export const upcomingEvents = [
-  { date: "Coming soon", title: "Community Blood Drive", location: "Location to be announced", description: "Partner drive with Carter BloodCare. Donors and day-of volunteers needed." },
-  { date: "Coming soon", title: "Food Packaging Event", location: "Location to be announced", description: "Help assemble meal kits for local families. Great for groups and kids 8+." },
+  {
+    date: "July 2026 — Date to be announced",
+    title: "Community Blood Drive",
+    location: "1400 N Coit Rd, Ste 2404, McKinney, TX 75071",
+    description: "Partner drive with Carter BloodCare. Donors and day-of volunteers needed. Stay tuned for the exact date!",
+  },
+  {
+    date: "Coming soon",
+    title: "Food Packaging Event",
+    location: "Location to be announced",
+    description: "Help assemble meal kits for local families. Great for groups and kids 8+.",
+  },
 ];
 
 export const tickerItems = [
