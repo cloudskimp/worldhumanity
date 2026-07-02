@@ -12,7 +12,7 @@ export const org = {
   social: {
     instagram: "https://www.instagram.com/worldhumanityinc/",
     linkedin: "https://www.linkedin.com/company/worldhumanity",
-    x: "https://www.x.com/worldhumaninc",
+    x: "https://x.com/worldhumanityco",
   },
   donateUrl: "/donate",
   volunteerFormUrl: "",
